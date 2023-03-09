@@ -1,0 +1,9 @@
+h1{
+	font-family: Cambria, Poppins,  Serif;
+	text-align: center;
+	font-size: 3em;
+}
+
+a:hover{
+	color: gray;
+}
