@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+	padding: 0%;
+	margin: 0%;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: #131312;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#back{
+	width: 2em;
+	height: 2em;
+	left: 2em;
+	top: 1em;
+	float: left;
+	position: absolute;
+	background-color: #415f63;
+	border: 0.2em solid #415f63;
+	border-radius: 5em;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	z-index: 1;
+	transition: 0.3s;
+}
+#back:hover{
+	transform: scale(1.2);
+}
+#option{
+	position: absolute;
+	top: 1em;
+	left: 105px;
+	z-index: 1;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+#option a{
+	font-family: 'Poppins', Arial, Sans-serif;
+	font-size: 1.25em;
+	font-weight: 300;
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s;
+}
+
+#option a:hover{
+	color: #415f63;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #415f63;
+}
+#next{
+	position: absolute;
+	right: 40px;
+	z-index: 1;
+	width: 30px;
+	background-color: rgba(3, 3, 3, 0.5);
+	padding: 15px;
+	border-radius: 100px;
+	transition: 0.2s;
+}
+#next:hover{
+	background-color: rgba(3, 3, 3, 0.8);
+	transform: scale(1.1);
+}
+#bg{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0%
+}
+#alpha{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 0%;
+}
+#links{
+	position: absolute;
+	top: 1em;
+	right: 2em;
+}
+
+#links a{
+	font-family: 'Poppins', Arial, Sans-serif;
+	font-size: 0.9em;
+	margin-right: 1em;
+	font-weight: 300;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+
+#links a:hover{
+	color: #333;
+}
+
+.front{
+	color: white;
+	z-index: 1;
+	position: relative;
+	top: 7.5%;
+	left: -15%;
+}
+.front h1{
+	font-size: 6em;
+	line-height: 1em;
+	font-weight: 700;
+}
+.front img{
+	width: 20px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.front #imdb{
+	position: relative;
+	font-size: 0.8em;
+	color: #f6f6f6;
+	font-weight: 200;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.front #score{
+	display: inline-block;
+	position: relative;
+}
+
+.front #total{
+	margin-top: -0.3em;
+	font-weight: 300;
+	color: #ececec;
+	font-size: 0.8em;
+}
+
+.front #info{
+	position: relative;
+	font-size: 1em;
+	font-weight: 300;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.video {
+	right: -0%;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 0.8em;
+	color: #f6f6f6;
+}
+
+.video #media{
+	margin-top: -20px;
+	width: 275px;
+	height: 200px;
+}
+.front #desc{
+	position: relative;	
+	font-size: 0.9em;
+	margin-left: 10px;
+	margin-top: 7.5px;
+}
