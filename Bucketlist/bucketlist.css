@@ -85,6 +85,15 @@ body {
 	margin-bottom: 20px;
 	color: #f0f0f0;
 }
+
+.category a{
+	text-decoration: none;
+	color: white;
+	transition: 0.2s ease-in-out;
+}
+.category a:hover{
+	transform: scale(1.1);
+}
 #cont{
 	display: flex;
 	margin-bottom: 10px;
@@ -97,6 +106,7 @@ body {
 	background-color: #415f63;
 	margin-right: 10px;
 }
+
 #square, #rectangle p{
 	padding-left: 15px;
 	padding-top: 115px;
@@ -206,10 +216,4 @@ body {
 	font-weight: 300;
 	color: white;
 	margin-left: 10px;
-}
-#top-img{
-	width: 10px;
-	height: 10px;
-	background-color: rgba(0,0,0,0.2);
-	float: left;
 }
