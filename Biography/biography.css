@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 html{
 	scroll-behavior: smooth;
+	font-family: 'Poppins', san-serif;
 }
 
 #back{
@@ -28,20 +29,25 @@ html{
 
 #links a{
 	font-family: 'Poppins', Arial, Sans-serif;
+	font-size: 0.9em;
 	margin-right: 1em;
 	text-decoration: none;
 	color: #333;
-	font-size: 0.9em;
-	transition: color 0.3s;
+	transition: 0.2s ease-in-out;
 }
 
 #links a:hover{
-	padding-bottom: 0.5em;
-	color: #415f63;
+	padding-bottom: 5px;	
 	border-bottom: 2px solid #415f63;
-	
+}
+#selected{
+	padding-bottom: 5px;
+	border-bottom: 2px solid #333;
 }
 
+#child, #teen, #college{
+	padding-top: 20px;
+}
 #gallery{
 	height: 54vh;
 	width: 64.5vw;
@@ -85,33 +91,29 @@ html{
 
 #footer{
 	position: fixed;
-	top: 15vh;
-	left: 89.5%;
-	width: 5.5vw;
-	background-color: #415f63;
-	margin: 0em 0em 3em 3em;
-	overflow: hidden;
-	padding: 0.5em;
-	transition: 0.5s ease-in-out;
+	bottom: 5%;
+	right: 1%;
+	
 }
 
 #footer a{
-	background-color: white;
-	left: 50%;
+	margin: 5px auto;
 	display: block;
-	margin-bottom: 0.5em;
-	text-align: center;
-	font-family: poppins;
-	font-weight: 300;
-	padding: 0.5em;
-	text-decoration: none;
 	color: #333;
-	font-size: 0.8em;
+}
+
+#footer img:hover{
+	transform: scale(1.2);
 }
 
 #footer img{
-	width: 2em;
-	height: 2em;
+	background-color: rgba(65,95,99, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 2.5px 10px;
+	padding: 10px;
+	border-radius: 300px;
+	width: 30px;
+	height: 30px;
 	position: relative;
 	margin: auto;
+	transition: 0.2s ease-in-out;
 }
